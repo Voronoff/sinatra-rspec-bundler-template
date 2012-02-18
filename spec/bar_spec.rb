@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe Foobar::Bar do
+describe Bandtracker::Main do
   
   def app
-    @app ||= Foobar::Bar
+    @app ||= Bandtracker::Main
   end
   
   describe "GET '/'" do
